@@ -8,8 +8,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\GreatingClass\Greating.Domain.csproj" />
-    <ProjectReference Include="..\GreatingTest\GreatingTest.csproj" />
+    <ProjectReference Include="..\Greating.Domain\Greating.Domain.csproj" />
+    <ProjectReference Include="..\GreatingUnitTests\GreatingUnitTests.csproj" />
   </ItemGroup>
 
 </Project>
