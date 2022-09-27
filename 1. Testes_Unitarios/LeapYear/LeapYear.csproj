@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\LeapYear.Domain2\LeapYear.Domain2.csproj" />
+    <ProjectReference Include="..\LeapYearTest\LeapYearTest.csproj" />
+  </ItemGroup>
+
+</Project>
